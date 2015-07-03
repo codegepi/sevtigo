@@ -5,7 +5,6 @@ $(document).ready(function(){
 		lastName = $("#lastName").val();
 		address = $("#address").val();
 		birthDate = $("#birthDate").val();
-		contactData ="";
 
 		if (firstName===""||lastName===""||address===""||birthDate==="") {
 			alert("Please fill all of your data");
@@ -20,6 +19,6 @@ $(document).ready(function(){
 		};
 
 		return false;
-	})
+	});
 
 });
